@@ -1,41 +1,20 @@
+import 'package:counter_app/modules/home/home_page.dart';
+import 'package:counter_app/modules/login/login_page.dart';
+import 'package:counter_app/modules/splash/splash_page.dart';
+import 'package:counter_app/shared/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.purple), home: HomePage()));
+  runApp(AppWidget());
 }
 
-class HomePage extends StatefulWidget {
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  var count = 0;
-
-  void increment() {
-    count++;
-    print(count);
-    setState(() {});
-  }
-
+class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Meu primeiro App!"),
-      ),
-      body: Center(
-          child: Text(
-        "CONTADOR\n$count",
-        textAlign: TextAlign.center,
-      )),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () {
-          increment();
-        },
-      ),
+    return MaterialApp(
+      title: 'Pay Flow',
+      theme: ThemeData(primaryColor: AppColors.primary),
+      home: LoginPage(),
     );
   }
 }

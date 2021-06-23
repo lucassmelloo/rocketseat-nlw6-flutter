@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 void main() {
@@ -108,6 +109,25 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+import 'package:counter_app/modules/home/home_page.dart';
+import 'package:counter_app/modules/login/login_page.dart';
+import 'package:counter_app/modules/splash/splash_page.dart';
+import 'package:counter_app/shared/themes/app_colors.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(AppWidget());
+}
+
+class AppWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Pay Flow',
+      theme: ThemeData(primaryColor: AppColors.primary),
+      home: LoginPage(),
+>>>>>>> 4c9739d2fbc0724a27acbcbad9c92ebec7ae4f3a
     );
   }
 }

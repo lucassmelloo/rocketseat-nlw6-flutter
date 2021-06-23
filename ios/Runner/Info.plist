@@ -11,7 +11,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>pay_flow</string>
+=======
+	<string>counter_app</string>
+>>>>>>> 4c9739d2fbc0724a27acbcbad9c92ebec7ae4f3a
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

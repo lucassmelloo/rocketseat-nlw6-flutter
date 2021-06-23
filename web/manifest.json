@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "name": "pay_flow",
     "short_name": "pay_flow",
-=======
-    "name": "counter_app",
-    "short_name": "counter_app",
->>>>>>> 4c9739d2fbc0724a27acbcbad9c92ebec7ae4f3a
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

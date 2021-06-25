@@ -1,8 +1,4 @@
 import 'package:pay_flow/app_widget.dart';
-import 'package:pay_flow/modules/home/home_page.dart';
-import 'package:pay_flow/modules/login/login_page.dart';
-import 'package:pay_flow/modules/splash/splash_page.dart';
-import 'package:pay_flow/shared/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
